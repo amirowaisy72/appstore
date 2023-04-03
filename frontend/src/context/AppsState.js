@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import context from "./contextCreator";
 
 const AppsState = (props) => {
-  const host = "http://localhost:5000";
+  // const host = "http://localhost:5000";
+  const host = "https://appstore-seven.vercel.app"
   const [apps, setApps] = useState([]); // Apps to be displayed
   const [detail, setDetail] = useState({});
   const [comments, setComments] = useState([]);

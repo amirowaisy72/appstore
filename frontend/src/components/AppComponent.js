@@ -17,7 +17,8 @@ const Categories = () => {
   let location = useLocation();
 
   //API Call
-  const host = "http://localhost:5000";
+  // const host = "http://localhost:5000";
+  const host = "https://appstore-seven.vercel.app"
   const fetchData = async () => {
     const response = await fetch(`${host}/apps/allcategories`, {
       method: "GET",
